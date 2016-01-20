@@ -1,0 +1,1 @@
+Dir.glob("./routes/*") { |f| require "./#{f}" }

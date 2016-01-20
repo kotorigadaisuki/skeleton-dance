@@ -1,0 +1,19 @@
+# For further reference go to:
+# http://datamapper.org/docs/
+
+# filename: example.rb
+
+class Example
+  include DataMapper::Resource
+
+  property :id, Serial # required
+  # property :column_name, Type, :options => 'values...'
+
+  def self.class_method params
+    # code block ...
+  end
+
+  def object_method params
+    # code block ...
+  end
+end
